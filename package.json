@@ -1,0 +1,19 @@
+{
+  "name": "emberthrob-blog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Emberthrob的基地 - 个人知识库与博客",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4",
+    "vitepress-gen-navs": "0.1.3"
+  }
+}

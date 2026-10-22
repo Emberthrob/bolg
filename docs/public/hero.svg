@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="知识网络示意图">
+  <defs>
+    <linearGradient id="panel" x1="100" y1="80" x2="560" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff7ed"/>
+      <stop offset="0.55" stop-color="#ffedd5"/>
+      <stop offset="1" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="ember" x1="280" y1="270" x2="380" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ea580c"/>
+      <stop offset="1" stop-color="#dc2626"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(320 315) rotate(90) scale(240)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fb923c" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#fb923c" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame">
+      <rect x="56" y="56" width="528" height="528" rx="120"/>
+    </clipPath>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+
+  <rect x="56" y="56" width="528" height="528" rx="120" fill="url(#panel)"/>
+  <rect x="56.75" y="56.75" width="526.5" height="526.5" rx="119.25" fill="none" stroke="#fdba74" stroke-width="1.5"/>
+
+  <g clip-path="url(#frame)">
+    <circle cx="320" cy="315" r="240" fill="url(#glow)"/>
+    <circle cx="320" cy="315" r="170" fill="#fb923c" fill-opacity="0.18" filter="url(#soft)"/>
+
+    <g stroke="#f97316" stroke-opacity="0.32" stroke-width="1.4">
+      <path d="M169 237L320 166L471 249L452 431L303 484L174 397Z"/>
+      <path d="M320 166V484M169 237L452 431M471 249L174 397"/>
+      <path d="M320 166L174 397M320 166L452 431M169 237L303 484M471 249L303 484"/>
+    </g>
+
+    <g fill="#f97316">
+      <circle cx="169" cy="237" r="7"/>
+      <circle cx="320" cy="166" r="9"/>
+      <circle cx="471" cy="249" r="6.5"/>
+      <circle cx="452" cy="431" r="8"/>
+      <circle cx="303" cy="484" r="6"/>
+      <circle cx="174" cy="397" r="7.5"/>
+    </g>
+
+    <g fill="#fdba74">
+      <circle cx="243" cy="202" r="4"/>
+      <circle cx="404" cy="208" r="5"/>
+      <circle cx="412" cy="362" r="4.5"/>
+      <circle cx="236" cy="349" r="4"/>
+      <circle cx="347" cy="460" r="3.6"/>
+    </g>
+
+    <ellipse cx="320" cy="326" rx="142" ry="94" fill="none" stroke="#c2410c" stroke-opacity="0.24" stroke-width="1.2" transform="rotate(-18 320 326)"/>
+
+    <circle cx="320" cy="326" r="91" fill="#fffaf5" fill-opacity="0.86" stroke="#fdba74" stroke-width="1.5"/>
+    <circle cx="320" cy="326" r="79" fill="#fff" fill-opacity="0.5"/>
+    <path d="M282 278h76v21h-51v18h43v20h-43v18h54v21h-79z" fill="url(#ember)"/>
+    <circle cx="386" cy="274" r="7" fill="#f59e0b"/>
+  </g>
+
+  <g fill="#9a3412" fill-opacity="0.55">
+    <circle cx="86" cy="120" r="3"/>
+    <circle cx="554" cy="154" r="4"/>
+    <circle cx="526" cy="534" r="3"/>
+    <circle cx="110" cy="510" r="4"/>
+  </g>
+</svg>

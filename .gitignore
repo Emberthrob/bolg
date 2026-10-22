@@ -1,0 +1,27 @@
+# 依赖
+node_modules/
+.npm-cache/
+
+# VitePress 构建产物与缓存
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+.vitepress/cache/
+.vitepress/dist/
+
+# Obsidian 的本机配置（不要提交，避免多设备冲突）
+.obsidian/
+.trash/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.log
+
+# 临时文件
+*.tgz
+*.tmp
+.inspect-plugin/
+.preview/
